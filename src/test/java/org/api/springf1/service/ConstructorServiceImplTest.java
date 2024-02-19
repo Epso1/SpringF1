@@ -1,28 +1,17 @@
 package org.api.springf1.service;
 
 import org.api.springf1.dto.ConstructorDTO;
-import org.api.springf1.dto.DriverDTO;
-import org.api.springf1.dto.DriverResponse;
 import org.api.springf1.exception.ConstructorNotFoundException;
-import org.api.springf1.mapper.ConstructorMapper;
 import org.api.springf1.model.Constructor;
-import org.api.springf1.model.Driver;
 import org.api.springf1.repository.ConstructorRepository;
-import org.api.springf1.repository.DriverRepository;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.mockito.junit.jupiter.MockitoExtension;
-import org.springframework.data.domain.Page;
-import org.springframework.data.domain.PageImpl;
-import org.springframework.data.domain.PageRequest;
-import org.springframework.data.domain.Pageable;
-
 import java.util.List;
 import java.util.Optional;
-
 import static org.junit.jupiter.api.Assertions.*;
 import static org.mockito.Mockito.when;
 

@@ -1,12 +1,8 @@
 package org.api.springf1.service;
 
-import org.api.springf1.dto.ConstructorDTO;
 import org.api.springf1.dto.DriverDTO;
 import org.api.springf1.dto.DriverResponse;
-import org.api.springf1.exception.ConstructorNotFoundException;
 import org.api.springf1.exception.DriverNotFoundException;
-import org.api.springf1.mapper.ConstructorMapper;
-import org.api.springf1.model.Constructor;
 import org.api.springf1.model.Driver;
 import org.api.springf1.repository.DriverRepository;
 import org.junit.jupiter.api.BeforeEach;
